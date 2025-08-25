@@ -1,0 +1,5 @@
+-- V1 init minimal tables
+CREATE TABLE IF NOT EXISTS sample (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  note VARCHAR(120) NOT NULL
+);
